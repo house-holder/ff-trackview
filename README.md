@@ -1,16 +1,10 @@
-# FF Track View
+# ForeFlight Track View
 
-This project aims to be a one-off Go CLI tool that shrinks and cleans ForeFlight tracklog (`.kml`) files for interactive use in apps like Google Earth.
+This project aims to be a one-off Go CLI tool that shrinks and cleans ForeFlight tracklog (`.kml`) files for interactive use in apps like Google Earth. The goal is to make the collection and use of the files as easy as possible, including adding to the collection as more tracklogs become available.
 
-Other planned features include:
-- Output of tracklog image file with configurable:
-    - Basemap
-    - Line options
-    - Image padding
-- Possible .kmz packaging to preserve user categorization & organization of tracks
 
 ## Project Overview
-The standard ForeFlight tracklog file includes a lot of "noisy" data that bloats without contributing in a meaningful way to a basic visual representation of the tracks. This includes data like:
+The standard ForeFlight tracklog file includes a lot of "noisy" data that bloats without contributing in a meaningful way to a basic visual representation of the tracks. This includes things like:
 
 - Timestamps for every coordinate captured
 - Pitch/bank
